@@ -1,0 +1,3 @@
+# PID Loops in Java
+----
+When designing a general purpose pid loop system, we intended to write industrial class loops that midigate common novice problems like integral windup and jaggy behavior. To solve jaggy behavior, we implemented a toggleable setpoint ramp which is controlled by its own pid. Idealy, both loops would be constructed simotaneously in a higher level class for generating pid loops from database constants. The database vision, however is only implemented in heavy debug modes.
