@@ -18,7 +18,7 @@ The simplest version of derivative control is:
 `derivative = ( error - prevError ) / dt;`
 where dt is the time it took to complete the last cycle.
 
-<img src="https://en.wikipedia.org/wiki/File:Secant-calculus.svg">
+<img src="https://en.wikipedia.org/wiki/File:Derivative_GIF.gif">
 
 We trade lag with robustness by taking the derivative over a larger interval.
 
