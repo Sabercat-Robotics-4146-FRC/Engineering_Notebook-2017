@@ -12,6 +12,15 @@ Our PID class has all combinations of contollers availible. (ie PI, PD controlle
 
 ### Derivative Control
 
+The derivative term in the PID controller is the change in error with respect to time. Discretely, this can be calculated by storing the previous error in memory, taking the current error, finding the difference between them, and dividing that value by the clock cycle time. For a more smooth derivative transition, we can use the average derivative over a given interval. With this, large inconsistent derivatives will be less impactful to the system, but the derivative value may lag a few iterations. Its a trade off that should be made in some control system situations. We use a similar method as integral to store multiple derivative values in memory, and take the mean of those values as the derivative term.
+
+The simplest version of derivative control is:
+`derivative = ( error - prevError ) / dt;`
+where dt is the time it took to complete the last cycle.
+
+<img src="https://en.wikipedia.org/wiki/File:Secant-calculus.svg">
+
+We trade lag with robustness by taking the derivative over a larger interval.
 
 ### Integreal Control
 
