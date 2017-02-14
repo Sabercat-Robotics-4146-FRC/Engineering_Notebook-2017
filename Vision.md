@@ -11,7 +11,7 @@ So, why did we choose the Pixy over our own working vision code that we develope
  
 ### *About the Pixy*
 
-The Pixy is an integrated computer-camera which will do all of the vision processing locally and then only transfer the data we need to the roborio. This provides a low bandwidth, high frame-rate solution to vision processing. The pixy is sporting a 1280x800 resolution camera, but only will run vision processing at 320x200 due to memory restraints on the Pixy. This lower resolution provides a 50Hz refresh rate. There is a mode where 25Hz is supported with full resolution, but for our applications, the lower resolution and higher update frequency is more favorable. This tradeoff is a direct result of the lower (1Mb) memory capacity of the Pixy.
+The Pixy is an integrated computer-camera which will do all of the vision processing locally and then only transfer the data we need to the roborio. This provides a low bandwidth, high frame-rate solution to vision processing. The pixy is sporting a 1280x800 resolution camera, but only will run vision processing at 320x200 due to memory restraints on the Pixy. This lower resolution provides a 50Hz refresh rate. There is a mode where 25Hz is supported with full resolution, but for our applications, the lower resolution and higher update frequency is more favorable. This tradeoff is a direct result of the lower (264Kb) memory capacity of the Pixy.
 
 - Processor: NXP LPC4330, 204 MHz, dual core
 - Image sensor: Omnivision OV9715, 1/4", 1280x800
