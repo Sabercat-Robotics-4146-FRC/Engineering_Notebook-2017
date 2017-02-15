@@ -29,10 +29,11 @@ The Pixy is an integrated computer-camera which will do all of the vision proces
 
 The Pixy allows us to track multiple targets based on color signatures. The pixy relays five very useful pieces of information for each block. The pixy uses classical HSV image filtering to calculate bounding boxes around each object. It tells us what *type* of block we are detecting. This allows us to determine what object the sensor is detecting. The Pixy will also give us the bounding box center *x* and *y* coordinates of the object relative to the camera. The origin of the camera is in the top left of the image with both x and y increasing to the lower right. The final information that the Pixy provides is the width and height of the object. This lets us determine approximate distances and such from the area information.
 
-### *Playing with the roboRIO*
-<center><img src="./images/Pixy playing with roboRIO.jpg"></center>
-[TODO: fill out Playing with the roboRIO]
+### *Communicating with the roboRIO*
+[TODO: fill out Communicating with the roboRIO]
+Initially we had planned on directly communicating with the ROBORio through it's SPI port.
 <center><img src="./images/roboRIO-to-Pixy SPI connection configuration.jpg"></center>
+However, as we looked more and more into the specifics of programming using the pixy over SPI, we decided it would be best to instead use the USB feature of the pixy and are now interfacing it a raspberry pi.
 
 ### *Powering the Pixy*
 [TODO: fill out Playing with the roboRIO]
