@@ -36,3 +36,11 @@ Initially we had planned on directly communicating with the ROBORio through it's
 <center><img src="./images/roboRIO-to-Pixy SPI connection configuration.jpg"></center>
 
 However, as we looked more and more into the specifics of programming using the pixy over SPI, we decided it would be best to instead use the USB feature of the pixy and are now interfacing it a Raspberry Pi using the libpixyusb library supplied from charmed labs. From the Pi we then are putting the pixy values into a network table to get them to the ROBORio.
+
+The Raspberry Pi takes the two largest objects from the Pixy by pixel area, and finds the midpoint between the two objects. This piece of software basically just takes the two parallel pieces of gear tape, and finds the center. This information is then put into the `NetworkTable` as a number.
+
+### *Vision Drive Train Correction*
+
+The next step in vision processing is taking the value relayed from the Raspberry Pi server, and correcting the drive train's angle. This is accomplished by using a simple `PID` controller with the error being the difference between the center x-pixel of the camera, and the pixel center from the Vision processor.
+
+The vision updates at 50Hz, so the PID loop can be very tight even without very muchh tuning. For instance, a simple P controller could track a fuel being thrown in the air.
