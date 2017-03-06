@@ -36,6 +36,32 @@ The shafts include a pattern of T40 2- 3/8” and 1-3/8” Banebots wheels which
  
 [TODO: Isometric view of Intake CAD]
 
+## *Shooter Design*
+Unique to many game strategies we have seen this year, we designed around being a ‘triple shooter’. Our shooter, in premise would shoot 3 balls at once, being more efficient when scoring into the high goal of the Boiler. So, we made a shooter that is similar in premise to the intake, being modular and a pattern of wheels. There are four identical pieces of sheet metal which end up creating 3 slots for fuel to be shot out of. We actually utilize a copy of the shaft with the Banebots wheel pattern (featured on our intake) to feed the shooter which is located towards the top of our robot. Our Shooter’s Intake is powered with a two 775 Pros into a dual gearbox with a  7:1 gearbox. The balls are then directed towards larger flywheels, which, turning at around 1500 rpm, hurl the ball towards the boiler. The back plates which support this system for the shape of an “S” Curve and the fuel is fed from the middle of the robot and the balls are shot from the front. 
+
+[TODO: insert cross section of shooter showing wheel pattern and s curve.]
+
+### Ball Storage Tank
+The area of which we store the bulk of the fuel we intake, is the tank area between the Shooter and Intake. It was initially just empty space with two pieces of bent polycarbonate on the sides, but we soon ran into an issue: the fuel would create a lattice-like structure which would keep the balls from being fed to the shooter. We solved this by created a displacer, which uses the vibrations of a mini cim to unclog the tank area. We included a piece of steel as a counterweight, and attached the mini CIM under a ramp we already had mounted to feed the balls.
+
+[TODO: insert picture of physical robot fuel tank, and vibrator]
+
+## *Gear Assembly Design*
+
+[TODO: Insert picture of gear assembly] 
+
+Although we were initially hoping to make the gear system passive in the beginning of the season, we soon ran into a problem of how the inner rings of the gear could randomly position itself. In one of two configurations it would work, in the other it would not. So we used a servo to open 2 ‘doors’ and push the gear out. We also included a ramped top of which the gear could fall into. It’s made out of TS 6061 Sheet metal and we used TSX Servos. This is one of the systems of which we utilized the pixi, an imaging sensor which we use to tell our distance, position relative to the gear pin. The gear is mounted on some linear slides as it was initially going to move side to side, but ended up being static when it came to being manufactured.
+
+## *Lifter Mechanism Design*
+
+One of our latter builds, the climber ended up having a limited space in the back of our robot, in between the CIMs of the Drive Train, and the Intake, already constructed on our final robot. So our Climber ended up having to fit in a smaller space than initially intended. We ended up with a climber concept that the rope would end up being coiled inside of a cut piece of tubing, as it would grab the rope and keep winding.This system has been dedicated its own CIM motor, as it is going to have to lift a 120+ lb. robot. We are supporting it with a structure also being used to mount the bumpers, and an added bellypan in the back to keep the robot from buckling, or folding in two. 
+
+### Rope Guide Systems
+
+[TODO: Insert Climber Photos] 
+
+ However, our climber ‘winder’ ended up being very small, and we had to create a way to put the rope inside of it. So we created this slot that would slide back and forth and put the rope into the winder, enclosing it. But, this slot also had a really area of coverage in the back of the robot. We added to servos on top that have two arms on it, that will pivot towards the slot at the same time, pushing the robot with a armspan of around a foot, feeding into a 2 inch slot, increasing our range tremendously. 
+
 
 ### Fasteners
 
