@@ -1,12 +1,34 @@
 #Technical Documentation: Mechanical Design
 
 ## *Strategy*
+
+### The Fuel
 As we came back from Kickoff, we immediately started to formulate the game strategy for this year’s competition. Right away, we ruled out being a hopper-dependant robot.  Early on in the match we figured the hoppers would either be purposefully activated to dump the balls, and there’d be a surplus of fuel on the game floor, regardless. So we created an Intake in order to pick up balls from the floor. We also made that intake vertical, transporting the balls in an elevator-like path into a ball reservoir We also knew we wanted to try and do gears for autonomous. That way, we could guarantee ourselves a significant amount of points during the autonomous period. We debated  about being a low goal shooter, but in the end we decided to go for the high goal on the boiler, because of the value discrepancy between each type of goal. We thought of it this way, we would have to put 3x as many balls into the low boiler boiler goal  for the same amount of points and 1 shot for the high boiler. With a little bit of fine tuning we could shoot for high goal and get more value for the same amount of time. In our design, one of the upperclassmen suggested having a ‘3-headed shooter’ that would not only go for high goal, but would shoot 3 balls at a time. This would make us highly efficient, and although we might not be as accurate, dishing out as many possible points as possible would lead for us to be desirable to other team’s strategies.
-For gears, although we initially wanted a passive gear system, but soon turned into an active system of which two doors would push the gear out, onto its pin. We ended up designing the climber later, and created a spool to coil up the rope, which was relatively narrow in respect to the rest of the back of the robot. To fix this, we implemented another system above the climber to move the rope into the narrower mouth of the climber. In terms of our drive train, we finalized on a torque-heavy robot to be hard to defend and block against, especially in the final rounds.
-  [TODO: reorder the information about rivnuts and manufacturing/sheet metal etc so it is in an order that makes sense]
+
+### The Gear
+For gears, although we initially wanted a passive gear system, but soon turned into an active system of which two doors would push the gear out, onto its pin. We wanted to try and use the gear assembly in the autonomous period in order to rack up as many points as possible.
+
+### The Rope
+
+ We ended up designing the climber later, and created a spool to coil up the rope, which was relatively narrow in respect to the rest of the back of the robot. To fix this, we implemented another system above the climber to move the rope into the narrower mouth of the climber. In terms of our drive train, we finalized on a torque-heavy robot to be hard to defend and block against, especially in the final rounds.
+ 
+ [TODO: reorder the information about rivnuts and manufacturing/sheet metal etc so it is in an order that makes sense]
 
 ## *Design Goals and Principles*
-[TODO: fill out design goals/principles]
+
+### Fasteners
+
+This year's fastener choice was heavily influenced by that of previous years with a few tweaks. We made the desicion to have less hardware diversity. This means that we are less likely to not have the correct size of something in case of breaking. For instance, last year, our climber was had a hook which was fastened to an arm with one 1" countersunk #10 made of special hardeded steel to be able to take the load. in competition, the load from the 120lb robot made the screw very dificult to repair when it came arround to routine arm maintenance. The screw was stripped due to someone useing a very small #2. When it came to needing a new screw, we didn't have any extra because of how specific the screw was, and no other teams around us has any. This made it very dificult to repair the arm while using a stripped screw. This year, we are using generic #10 screws almost exclusivly. This means that we can just bring a surplus of generic screws and we will never have any problems with specialized hardware breaking. Instead of ungodly ammounts of nylock nuts we used in previous years, we are increasing the frequency of rivnut on the robot. The use of rivnuts makes removing and attatching modules from the robot quicker because the nut doesn't need to be heald in place in order to unscew a fastener. One of the reasons that rivnuts were not used as frequently last year is due to their easy stip torque. In previous years, we used aluminum rivnuts, but by using a mix of aluminum and steel this year, we can have fasteners that support over tightened screwes.
+
+# Manufacturing and Fabrication
+
+<span style="color: red;">
+*When Manufacturing, safety is our top priority. Proper PPE are training are of the upmost importance.*
+</span>
+
+## Sheet Metal Cuts
+
+Our team manufactures most of the parts by hand. We use 1:1 drawings made by our design team in Solidworks. The manufacturing process beigns with the design team, they must develop a cutlist and drawing list with the correct number of parts that need to be manufactured. We then print out the 1:1 drawings, and cut the sheet metal to bounding rectangles of the size. 
 
 ## *Drivetrain Design*
 The drive train was built for versatility, robustness, and modularity. Design was heavily influenced by our manufacturing capabilities. Our primary manufacturing facility has tooling for sheet metal, so we designed most of the robot, including the drivetrain, in sheet metal. The decision was reinforced by the sheet metal design tools provided by Solidworks. We used 6061-T6 alloy 0.0625” sheets for a majority of parts.
@@ -63,16 +85,4 @@ One of our latter builds, the climber ended up having a limited space in the bac
  However, our climber ‘winder’ ended up being very small, and we had to create a way to put the rope inside of it. So we created this slot that would slide back and forth and put the rope into the winder, enclosing it. But, this slot also had a really area of coverage in the back of the robot. We added to servos on top that have two arms on it, that will pivot towards the slot at the same time, pushing the robot with a armspan of around a foot, feeding into a 2 inch slot, increasing our range tremendously. 
 
 
-### Fasteners
 
-This year's fastener choice was heavily influenced by that of previous years with a few tweaks. We made the desicion to have less hardware diversity. This means that we are less likely to not have the correct size of something in case of breaking. For instance, last year, our climber was had a hook which was fastened to an arm with one 1" countersunk #10 made of special hardeded steel to be able to take the load. in competition, the load from the 120lb robot made the screw very dificult to repair when it came arround to routine arm maintenance. The screw was stripped due to someone useing a very small #2. When it came to needing a new screw, we didn't have any extra because of how specific the screw was, and no other teams around us has any. This made it very dificult to repair the arm while using a stripped screw. This year, we are using generic #10 screws almost exclusivly. This means that we can just bring a surplus of generic screws and we will never have any problems with specialized hardware breaking. Instead of ungodly ammounts of nylock nuts we used in previous years, we are increasing the frequency of rivnut on the robot. The use of rivnuts makes removing and attatching modules from the robot quicker because the nut doesn't need to be heald in place in order to unscew a fastener. One of the reasons that rivnuts were not used as frequently last year is due to their easy stip torque. In previous years, we used aluminum rivnuts, but by using a mix of aluminum and steel this year, we can have fasteners that support over tightened screwes.
-
-# Manufacturing and Fabrication
-
-<span style="color: red;">
-*When Manufacturing, safety is our top priority. Propper PPE are training are of the upmost importance.*
-</span>
-
-## Sheet Metal Cuts
-
-Our team manufactures most of the parts by hand. We use 1:1 drawings made by our design team in Solidworks. The manufacturing process beigns with the design team, they must develop a cutlist and drawing list with the correct number of parts that need to be manufactured. We then print out the 1:1 drawings, and cut the sheet metal to bounding rectangles of the size. 
