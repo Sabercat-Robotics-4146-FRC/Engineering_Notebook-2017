@@ -30,6 +30,12 @@ This year's fastener choice was heavily influenced by that of previous years wit
 
 Our team manufactures most of the parts by hand. We use 1:1 drawings made by our design team in Solidworks. The manufacturing process beigns with the design team, they must develop a cutlist and drawing list with the correct number of parts that need to be manufactured. We then print out the 1:1 drawings, and cut the sheet metal to bounding rectangles of the size. 
 
+# The Design
+
+<center><img src="./images/Robot Iso View crop.png"></center>
+
+[TODO: Insert Better view of robot, ALL PARTS SHOWN]
+
 ## *Drivetrain Design*
 The drive train was built for versatility, robustness, and modularity. Design was heavily influenced by our manufacturing capabilities. Our primary manufacturing facility has tooling for sheet metal, so we designed most of the robot, including the drivetrain, in sheet metal. The decision was reinforced by the sheet metal design tools provided by Solidworks. We used 6061-T6 alloy 0.0625” sheets for a majority of parts.
 ### Drive Wheels
@@ -54,16 +60,20 @@ Early on in the game strategy process we decided we wanted to be a shooter robot
 
 [TODO: Insert picture of banebots intake wheel pattern CAD]
 
-<center><img src="./images/Intake Iso View crop.png"></center>
+<center><img src="./images/Intake Pattern Side-View crop.png"></center>
 
 The shafts include a pattern of T40 2- 3/8” and 1-3/8” Banebots wheels which alternate: The smaller diameter wheels sits in between two larger ones to create a slot of which the surgical tubing to go in. There is also a  ‘C’ curved backplate in order to smoothly feed the fuel into our storage tank. We decided to use a 775 Pro motor, with a 10:1 gear ratio.
  
 [TODO: Isometric view of Intake CAD]
 
+<center><img src="./images/Intake Iso View crop.png"></center>
+
 ## *Shooter Design*
 Unique to many game strategies we have seen this year, we designed around being a ‘triple shooter’. Our shooter, in premise would shoot 3 balls at once, being more efficient when scoring into the high goal of the Boiler. So, we made a shooter that is similar in premise to the intake, being modular and a pattern of wheels. There are four identical pieces of sheet metal which end up creating 3 slots for fuel to be shot out of. We actually utilize a copy of the shaft with the Banebots wheel pattern (featured on our intake) to feed the shooter which is located towards the top of our robot. Our Shooter’s Intake is powered with a two 775 Pros into a dual gearbox with a  7:1 gearbox. The balls are then directed towards larger flywheels, which, turning at around 1500 rpm, hurl the ball towards the boiler. The back plates which support this system for the shape of an “S” Curve and the fuel is fed from the middle of the robot and the balls are shot from the front. 
 
 [TODO: insert cross section of shooter showing wheel pattern and s curve.]
+
+<center><img src="./images/Shooter Side-View crop.png"></center>
 
 ### Ball Storage Tank
 The area of which we store the bulk of the fuel we intake, is the tank area between the Shooter and Intake. It was initially just empty space with two pieces of bent polycarbonate on the sides, but we soon ran into an issue: the fuel would create a lattice-like structure which would keep the balls from being fed to the shooter. We solved this by created a displacer, which uses the vibrations of a mini cim to unclog the tank area. We included a piece of steel as a counterweight, and attached the mini CIM under a ramp we already had mounted to feed the balls.
@@ -83,6 +93,8 @@ One of our latter builds, the climber ended up having a limited space in the bac
 ### Rope Guide Systems
 
 [TODO: Insert Climber Photos] 
+
+<center><img src="./images/Climber Iso View crop.png"></center>
 
  However, our climber ‘winder’ ended up being very small, and we had to create a way to put the rope inside of it. So we created this slot that would slide back and forth and put the rope into the winder, enclosing it. But, this slot also had a really area of coverage in the back of the robot. We added to servos on top that have two arms on it, that will pivot towards the slot at the same time, pushing the robot with a armspan of around a foot, feeding into a 2 inch slot, increasing our range tremendously. 
 
