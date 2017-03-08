@@ -54,6 +54,8 @@ Early on in the game strategy process we decided we wanted to be a shooter robot
 
 [TODO: Insert picture of banebots intake wheel pattern CAD]
 
+<center><img src="./images/Intake Iso View crop.png"></center>
+
 The shafts include a pattern of T40 2- 3/8” and 1-3/8” Banebots wheels which alternate: The smaller diameter wheels sits in between two larger ones to create a slot of which the surgical tubing to go in. There is also a  ‘C’ curved backplate in order to smoothly feed the fuel into our storage tank. We decided to use a 775 Pro motor, with a 10:1 gear ratio.
  
 [TODO: Isometric view of Intake CAD]
