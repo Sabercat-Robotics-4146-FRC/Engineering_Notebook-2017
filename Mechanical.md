@@ -86,7 +86,9 @@ The area of which we store the bulk of the fuel we intake, is the tank area betw
 
 Although we were initially hoping to make the gear system passive in the beginning of the season, we soon ran into a problem of how the inner rings of the gear could randomly position itself. In one of two configurations it would work, in the other it would not. So we used a servo to open 2 ‘doors’ and push the gear out. We also included a ramped top of which the gear could fall into. It’s made out of TS 6061 Sheet metal and we used TSX Servos. This is one of the systems of which we utilized the pixi, an imaging sensor which we use to tell our distance, position relative to the gear pin. The gear is mounted on some linear slides as it was initially going to move side to side, but ended up being static when it came to being manufactured.
 
-## *Lifter Mechanism Design*
+## *Climber Mechanism Design*
+
+<center><img src="./images/Climber Iso View crop.png"></center>
 
 One of our latter builds, the climber ended up having a limited space in the back of our robot, in between the CIMs of the Drive Train, and the Intake, already constructed on our final robot. So our Climber ended up having to fit in a smaller space than initially intended. We ended up with a climber concept that the rope would end up being coiled inside of a cut piece of tubing, as it would grab the rope and keep winding.This system has been dedicated its own CIM motor, as it is going to have to lift a 120+ lb. robot. We are supporting it with a structure also being used to mount the bumpers, and an added bellypan in the back to keep the robot from buckling, or folding in two. 
 
@@ -94,7 +96,6 @@ One of our latter builds, the climber ended up having a limited space in the bac
 
 [TODO: Insert Climber Photos] 
 
-<center><img src="./images/Climber Iso View crop.png"></center>
 
  However, our climber ‘winder’ ended up being very small, and we had to create a way to put the rope inside of it. So we created this slot that would slide back and forth and put the rope into the winder, enclosing it. But, this slot also had a really area of coverage in the back of the robot. We added to servos on top that have two arms on it, that will pivot towards the slot at the same time, pushing the robot with a armspan of around a foot, feeding into a 2 inch slot, increasing our range tremendously. 
 
