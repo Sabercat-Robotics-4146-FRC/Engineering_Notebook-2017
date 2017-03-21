@@ -11,7 +11,10 @@ For gears, although we initially wanted a passive gear system, but soon turned i
 ### The Rope
 
  We ended up designing the climber later, and created a spool to coil up the rope, which was relatively narrow in respect to the rest of the back of the robot. To fix this, we implemented another system above the climber to move the rope into the narrower mouth of the climber. In terms of our drive train, we finalized on a torque-heavy robot to be hard to defend and block against, especially in the final rounds.
- 
+
+###Game Strategy Update from 3/9- 3/12
+
+As we competed at NAU, we noticed something during competition. Gearbots, everywhere. Almost no robot had tried for fuel, opting instead to specialize in gear, and climbing,  which is the most efficient way to score points. Although we had forecasted this, our strategy for fuel soon became too inconvenient in this Regional match. The way to be competitive was to race for gears, or block the other team from doing so. Since our team was built sturdily like a tank, we soon became the defensive robot in the game, as agile and faster robots would race around getting gears, and we would aid our alliance by hindering the opposing team. With some tricky and strategic driving, we would block one of the two areas around the DAVIT, and be an immovable wall to get around. This proved to get us far in the match, as we became the third pick for the 2nd highest ranked alliance in the finals. 
  [TODO: reorder the information about rivnuts and manufacturing/sheet metal etc so it is in an order that makes sense]
 
 ## *Design Goals and Principles*
@@ -99,5 +102,8 @@ One of our latter builds, the climber ended up having a limited space in the bac
 
  However, our climber ‘winder’ ended up being very small, and we had to create a way to put the rope inside of it. So we created this slot that would slide back and forth and put the rope into the winder, enclosing it. But, this slot also had a really area of coverage in the back of the robot. We added to servos on top that have two arms on it, that will pivot towards the slot at the same time, pushing the robot with a armspan of around a foot, feeding into a 2 inch slot, increasing our range tremendously. 
 
+### Climber Complications
+
+Throughout our qualifying matches we kept having problems with the reliability of our climber. Our system had relied too much on too many systems, happening one after another.Two servos would swing and bring the rope in, then a linear actuator to bring the rope into the winder; that winder then having to spin and coil the rope up. In at least one match we couldn't climb because the PWM cord for the climber’s linear actuator had gotten unplugged, rendering our climber useless. In retrospect, we had over-complicated the climber. Additionally, we had to adapt with our pilot, as well as our alliance partners, in order for the rope to be dropped at a reasonable time to climb, successfully touch the pressure plate, and get the corresponding points.
 
 
