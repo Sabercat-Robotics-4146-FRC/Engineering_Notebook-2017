@@ -35,7 +35,7 @@ Our team manufactures most of the parts by hand. We use 1:1 drawings made by our
 
 # The Design
 
-<center><img src="./images/Robot Iso View crop.png"></center>
+<center><img src="./images/New Robot Iso.png"></center>
 
 [TODO: Insert Better view of robot, ALL PARTS SHOWN]
 
