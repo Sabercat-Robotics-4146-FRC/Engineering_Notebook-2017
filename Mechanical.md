@@ -106,4 +106,8 @@ One of our latter builds, the climber ended up having a limited space in the bac
 
 Throughout our qualifying matches we kept having problems with the reliability of our climber. Our system had relied too much on too many systems, happening one after another.Two servos would swing and bring the rope in, then a linear actuator to bring the rope into the winder; that winder then having to spin and coil the rope up. In at least one match we couldn't climb because the PWM cord for the climber’s linear actuator had gotten unplugged, rendering our climber useless. In retrospect, we had over-complicated the climber. Additionally, we had to adapt with our pilot, as well as our alliance partners, in order for the rope to be dropped at a reasonable time to climb, successfully touch the pressure plate, and get the corresponding points.
 
+#### How we fixed it
 
+We noticed at NAU and on youtube and overwhelming number of teams were successful using a drum spinner, that included velcro taped onto it. People we using it to snag the rope, so it could be wound up the spinner. We took out the linear actuator, the railed system to hold the rope, and the rope's previous winder. We opted instead on filling the shaft with 1 7/8" Banebots T40 wheels. We've kept the linear guide system, however, as it has been a great asset and convenience for the driver, but in general, Climber v2 has a much more simplified design.
+
+[To Do: Take pictures of the new Climber as of 3/22 and showcase the new parts of it.]
