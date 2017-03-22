@@ -1,4 +1,4 @@
-#Technical Documentation: Mechanical Design
+# Technical Documentation: Mechanical Design
 
 ## *Strategy*
 
@@ -38,8 +38,6 @@ Our team manufactures most of the parts by hand. We use 1:1 drawings made by our
 # The Design
 
 <center><img src="./images/New Robot Iso.png"></center>
-
-[TODO: Insert Better view of robot, ALL PARTS SHOWN]
 
 ## *Drivetrain Design*
 The drive train was built for versatility, robustness, and modularity. Design was heavily influenced by our manufacturing capabilities. Our primary manufacturing facility has tooling for sheet metal, so we designed most of the robot, including the drivetrain, in sheet metal. The decision was reinforced by the sheet metal design tools provided by Solidworks. We used 6061-T6 alloy 0.0625” sheets for a majority of parts.
