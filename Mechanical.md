@@ -91,7 +91,7 @@ Although we were initially hoping to make the gear system passive in the beginni
 
 ## *Climber Mechanism Design*
 
-<center><img src="./images/Climber Iso View crop.png"></center>
+<center><img src="./images/Climber Iso View crop.png" width="75"></center>
 
 One of our latter builds, the climber ended up having a limited space in the back of our robot, in between the CIMs of the Drive Train, and the Intake, already constructed on our final robot. So our Climber ended up having to fit in a smaller space than initially intended. We ended up with a climber concept that the rope would end up being coiled inside of a cut piece of tubing, as it would grab the rope and keep winding.This system has been dedicated its own CIM motor, as it is going to have to lift a 120+ lb. robot. We are supporting it with a structure also being used to mount the bumpers, and an added bellypan in the back to keep the robot from buckling, or folding in two. 
 
