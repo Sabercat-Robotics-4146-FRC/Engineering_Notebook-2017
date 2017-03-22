@@ -12,10 +12,12 @@ For gears, although we initially wanted a passive gear system, but soon turned i
 
  We ended up designing the climber later, and created a spool to coil up the rope, which was relatively narrow in respect to the rest of the back of the robot. To fix this, we implemented another system above the climber to move the rope into the narrower mouth of the climber. In terms of our drive train, we finalized on a torque-heavy robot to be hard to defend and block against, especially in the final rounds.
 
-###Game Strategy Update from 3/9- 3/12
+### Game Strategy Update from 3/9- 3/12
 
-As we competed at NAU, we noticed something during competition. Gearbots, everywhere. Almost no robot had tried for fuel, opting instead to specialize in gear, and climbing,  which is the most efficient way to score points. Although we had forecasted this, our strategy for fuel soon became too inconvenient in this Regional match. The way to be competitive was to race for gears, or block the other team from doing so. Since our team was built sturdily like a tank, we soon became the defensive robot in the game, as agile and faster robots would race around getting gears, and we would aid our alliance by hindering the opposing team. With some tricky and strategic driving, we would block one of the two areas around the DAVIT, and be an immovable wall to get around. This proved to get us far in the match, as we became the third pick for the 2nd highest ranked alliance in the finals. 
- [TODO: reorder the information about rivnuts and manufacturing/sheet metal etc so it is in an order that makes sense]
+As we competed at NAU, we noticed something during competition. Gearbots, everywhere. Almost no robot had tried for fuel, opting instead to specialize in gear, and climbing,  which is the most efficient way to score points. Although we had anticipated this, our strategy for fuel soon became too inconvenient in this Regional match. The way to be competitive was to race for gears, or block the other team from doing so. Since our team was built sturdily like a tank, we soon became the defensive robot in the game, as agile and faster robots would race around getting gears, and we would aid our alliance by hindering the opposing team. With some tricky and strategic driving, we would block one of the two areas around the DAVIT, and be an immovable wall to get around. This proved to get us far in the match, as we became the third pick for the 2nd highest ranked alliance in the finals. 
+
+However, going on from this competition, we realized a few things. Doing fuel is useless until you get to finals matches or the world competitions. Fuel is only viable when it will be the tie-breaker between teams with robots that are so good at gears, they can get 2-3 rotors turning on their own. So, our fuel strategy will be doing fuel in autonomous, or doing it simultaneously when putting gears into the gearpin closest to the boiler. That way, our shooting will be as efficient as possible. And with a revamped climber and gear mechanism, we should be competitive with the other robots in our next regional. 
+ 
 
 ## *Design Goals and Principles*
 
@@ -54,7 +56,7 @@ In the 2017 season, speed and agression is a must have for a drive train. The ga
 
 <center><img src="./images/SSSR.jpg"></center>
 
-The issue came when the highest reduction the gearbox supported was a 7:1. We did the math against the Tough-box mini's which we used in pervious years. If we were to use the 7:1 SSSR gearbox, we would loose seven pounds (7lbs) of pushing power, and only increase our speed by 30% in a perfect world. This was an unacceptable loss of torque. The SSSR would be havier and harder to do finely controlled programming for. Because of this, and the overall cost of ordering four (4) new gearboxes for both the robot, and the practice robot, we decided to go with the Tough Box Mini's. The mini's are a tride and true gearbox with built in encoders and we had enough in supply for both robots. 
+The issue came when the highest reduction the gearbox supported was a 7:1. We did the math against the Tough-box mini's which we used in pervious years. If we were to use the 7:1 SSSR gearbox, we would lose seven pounds (7lbs) of pushing power, and only increase our speed by 30% in a perfect world. This was an unacceptable loss of torque. The SSSR would be heavier and harder to do finely controlled programming for. Because of this, and the overall cost of ordering four (4) new gearboxes for both the robot, and the practice robot, we decided to go with the Tough Box Mini's. The mini's are a tried and true gearbox with built in encoders and we had enough in supply for both robots. 
 
 <center><img src="./images/Tough Box.jpg"></center>
 
